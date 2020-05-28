@@ -6,7 +6,7 @@ console.log(add(2, 4))
 
 function multiply(a, b) {
     let product = 0
-    for (let index = 0; index < b; index = index = add(index, 1)) {
+    for (let index = 0; index < b; index = add(index, 1)) {
         product = add(product, a)
 
     }
@@ -26,7 +26,7 @@ console.log(power(2, 4))
 
 function factorial(num1) {
     let total = 1
-    for (let index = num1; index >= 1; index = index - 1) {
+    for (let index = num1; index >= 1; index = add(index, -1)) {
         total = multiply(index, total)
     }
     return total
